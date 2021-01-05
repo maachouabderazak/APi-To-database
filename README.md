@@ -22,7 +22,7 @@ Dans ce cas on aura les communes du département 01, si l’on veut récupérer 
 ***
 
 ### Présentation du code:
-On a créé une fonction nommée apiToDatabase qui regroupe toutes les étapes a suivre pour obtenir le résultat final.
+On a créé une fonction nommée apiToDatabase qui regroupe toutes les étapes a suivre pour obtenir le résultat final, Elle retourne à la fin un dataframe et on le compare à la base de données crée    .
 ![2](https://user-images.githubusercontent.com/75087496/103663857-e06bec00-4f71-11eb-96bf-17a5d410d408.PNG) <br>
 Aperçu du dictionnaire obtenu : <br>
 ![3](https://user-images.githubusercontent.com/75087496/103664313-6e47d700-4f72-11eb-9569-f8b0b6df35e7.PNG)<br>
@@ -38,15 +38,16 @@ Finalement on va remplir la base de données crée précédemment grâce à une 
 cursor.executemany("INSERT INTO region (nom, code,codeDepartement,codeRegion,codesPostaux,populationR) VALUES (?,?,?,?,?,?)", Table)<br>
 ![7](https://user-images.githubusercontent.com/75087496/103667010-aac90200-4f75-11eb-89d1-47827bbae631.PNG)</p><br>
 ### La fonction conv:
-Cette fonction va nous aider à convertir certaine colonnes afin de faciliter l’insertion dans la base de données et évite certaines erreurs.<br>
+Cette fonction va nous aider à convertir certaine colonnes afin de faciliter l’insertion dans la base de données et éviter certaines erreurs.<br>
 ![8](https://user-images.githubusercontent.com/75087496/103667451-3d69a100-4f76-11eb-926f-6c6c7ac6d7fc.PNG)</p> <br> 
-A la fin  de l’exécution on peut vérifier notre base de données dans sql server<br>
+A la fin  de l’exécution on peut vérifier notre base de données dans sql server </p><br>
 ![9](https://user-images.githubusercontent.com/75087496/103667731-99342a00-4f76-11eb-849f-fa6ebccc5ae4.PNG)
 
 
 
 *** 
-### Présentation du fonctionnement final  
+### Présentation du fonctionnement final :
+![20210105_172752](https://user-images.githubusercontent.com/75087496/103671735-9be54e00-4f7b-11eb-9141-dca5873dc587.gif)
 
 
 
