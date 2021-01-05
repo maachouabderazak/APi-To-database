@@ -36,7 +36,17 @@ Ensuite on va créer une table avec les colonnes de l’api comme présenté ci-
 Finalement on va remplir la base de données crée précédemment grâce à une boucle qui transmettra toutes les données dans la base de données.<br>
 #### La raquette qui remplit la base de données:
 cursor.executemany("INSERT INTO region (nom, code,codeDepartement,codeRegion,codesPostaux,populationR) VALUES (?,?,?,?,?,?)", Table)<br>
-![7](https://user-images.githubusercontent.com/75087496/103667010-aac90200-4f75-11eb-89d1-47827bbae631.PNG)
+![7](https://user-images.githubusercontent.com/75087496/103667010-aac90200-4f75-11eb-89d1-47827bbae631.PNG)</p><br>
+### La fonction conv:
+Cette fonction va nous aider à convertir certaine colonnes afin de faciliter l’insertion dans la base de données et évite certaines erreurs.<br>
+![8](https://user-images.githubusercontent.com/75087496/103667451-3d69a100-4f76-11eb-926f-6c6c7ac6d7fc.PNG)</p> <br> 
+A la fin  de l’exécution on peut vérifier notre base de données dans sql server<br>
+![9](https://user-images.githubusercontent.com/75087496/103667731-99342a00-4f76-11eb-849f-fa6ebccc5ae4.PNG)
+
+
+
+*** 
+### Présentation du fonctionnement final  
 
 
 
