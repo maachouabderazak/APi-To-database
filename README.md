@@ -30,7 +30,9 @@ Aperçu du dataframe obtenu : <br>
 ![Capture](https://user-images.githubusercontent.com/75087496/103664527-ab13ce00-4f72-11eb-867f-7e9b14e10c00.PNG) </p><br>
 Après avoir récupérer les données de l’api on va procéder à la création de la base de données dans sql server<br> 
 ##### Le code suivant va nous permettre de réaliser cette étape:<br>
-![5](https://user-images.githubusercontent.com/75087496/103665055-4147f400-4f73-11eb-88dc-7efd6e133288.PNG)
+![5](https://user-images.githubusercontent.com/75087496/103665055-4147f400-4f73-11eb-88dc-7efd6e133288.PNG)</p><br>
+Ensuite on va créer une table avec les colonnes de l’api comme présenté ci-dessous <br>
+![6](https://user-images.githubusercontent.com/75087496/103665617-e95dbd00-4f73-11eb-9219-8a27a10783a6.PNG)
 
 
 
