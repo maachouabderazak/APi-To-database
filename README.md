@@ -32,7 +32,14 @@ Après avoir récupérer les données de l’api on va procéder à la création
 ##### Le code suivant va nous permettre de réaliser cette étape:<br>
 ![5](https://user-images.githubusercontent.com/75087496/103665055-4147f400-4f73-11eb-88dc-7efd6e133288.PNG)</p><br>
 Ensuite on va créer une table avec les colonnes de l’api comme présenté ci-dessous <br>
-![6](https://user-images.githubusercontent.com/75087496/103665617-e95dbd00-4f73-11eb-9219-8a27a10783a6.PNG)
+![6](https://user-images.githubusercontent.com/75087496/103665617-e95dbd00-4f73-11eb-9219-8a27a10783a6.PNG) </p><br>
+Finalement on va remplir la base de données crée précédemment grâce à une boucle qui transmettra toutes les données dans la base de données.<br>
+#### La raquette qui remplit la base de données:
+cursor.executemany("INSERT INTO region (nom, code,codeDepartement,codeRegion,codesPostaux,populationR) VALUES (?,?,?,?,?,?)", Table)<br>
+![7](https://user-images.githubusercontent.com/75087496/103667010-aac90200-4f75-11eb-89d1-47827bbae631.PNG)
+
+
+
 
 
 
