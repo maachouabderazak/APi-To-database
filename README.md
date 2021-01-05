@@ -23,7 +23,12 @@ Dans ce cas on aura les communes du département 01, si l’on veut récupérer 
 
 ### Présentation du code:
 On a créé une fonction nommée apiToDatabase qui regroupe toutes les étapes a suivre pour obtenir le résultat final.
-![2](https://user-images.githubusercontent.com/75087496/103663857-e06bec00-4f71-11eb-96bf-17a5d410d408.PNG)
+![2](https://user-images.githubusercontent.com/75087496/103663857-e06bec00-4f71-11eb-96bf-17a5d410d408.PNG) <br>
+Aperçu du dictionnaire obtenu : <br>
+![3](https://user-images.githubusercontent.com/75087496/103664313-6e47d700-4f72-11eb-9569-f8b0b6df35e7.PNG)<br>
+Aperçu du dataframe obtenu : <br>
+![Capture](https://user-images.githubusercontent.com/75087496/103664527-ab13ce00-4f72-11eb-867f-7e9b14e10c00.PNG)
+
 
 
 
