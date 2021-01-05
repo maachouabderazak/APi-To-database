@@ -15,12 +15,15 @@ o	rechercher une région par son nom.</p></p>
 Pour notre projet on a choisi de récupérer toutes les communes d’un département quelconque  pour cela on utilise l’url suivantes :<br>
 https://geo.api.gouv.fr/departements/01/communes'<br>
 Dans ce cas on aura les communes du département 01, si l’on veut récupérer les communes d'un autre département on change le numéro 01 dans l’Url avec le numéro de département voulu.<br>
-Aperçu de l'APi<br>
+##### Aperçu de l'APi<br>
 ![1](https://user-images.githubusercontent.com/75087496/103661937-984bca00-4f6f-11eb-8bfa-ace27db5cd45.PNG)
 
 
 ***
+
 ### Présentation du code:
+On a créé une fonction nommée apiToDatabase qui regroupe toutes les étapes a suivre pour obtenir le résultat final.
+![2](https://user-images.githubusercontent.com/75087496/103663857-e06bec00-4f71-11eb-96bf-17a5d410d408.PNG)
 
 
 
