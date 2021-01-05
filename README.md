@@ -27,7 +27,11 @@ On a créé une fonction nommée apiToDatabase qui regroupe toutes les étapes a
 Aperçu du dictionnaire obtenu : <br>
 ![3](https://user-images.githubusercontent.com/75087496/103664313-6e47d700-4f72-11eb-9569-f8b0b6df35e7.PNG)<br>
 Aperçu du dataframe obtenu : <br>
-![Capture](https://user-images.githubusercontent.com/75087496/103664527-ab13ce00-4f72-11eb-867f-7e9b14e10c00.PNG)
+![Capture](https://user-images.githubusercontent.com/75087496/103664527-ab13ce00-4f72-11eb-867f-7e9b14e10c00.PNG) </p><br>
+Après avoir récupérer les données de l’api on va procéder à la création de la base de données dans sql server<br> 
+###### Le code suivant va nous permettre de réaliser cette étape:<br>
+![5](https://user-images.githubusercontent.com/75087496/103665055-4147f400-4f73-11eb-88dc-7efd6e133288.PNG)
+
 
 
 
