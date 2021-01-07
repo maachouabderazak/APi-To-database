@@ -1,6 +1,6 @@
 
 #### Réalisé par:
-GUENDOUL Massinissa
+GUENDOUL Massinissa <br>
 MAACHOU Aberazak
 ***
 Ce projet consiste à choisir une API ensuite intégrer toutes les données dans une base de données.<br>
